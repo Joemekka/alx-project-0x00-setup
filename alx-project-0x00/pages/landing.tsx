@@ -13,6 +13,7 @@ const Landing: React.FC<ButtonProps> = () => {
         <div className="flex gap-4">
           <Button title="Small - sm" styles="text-sm px-2 py-1 rounded-sm" />
           <Button title="Small - md" styles="text-sm px-2 py-1 rounded-md" />
+          <Button title="Small - lg" styles="text-sm px-2 py-1 rounded-lg" />
           <Button
             title="Small - full"
             styles="text-sm px-2 py-1 rounded-full"
@@ -22,6 +23,7 @@ const Landing: React.FC<ButtonProps> = () => {
         <div className="flex gap-4">
           <Button title="Medium - sm" styles="text-base px-4 py-2 rounded-sm" />
           <Button title="Medium - md" styles="text-base px-4 py-2 rounded-md" />
+          <Button title="Medium - lg" styles="text-base px-4 py-2 rounded-lg" />
           <Button
             title="Medium - full"
             styles="text-base px-4 py-2 rounded-full"
@@ -31,6 +33,7 @@ const Landing: React.FC<ButtonProps> = () => {
         <div className="flex gap-4">
           <Button title="Large - sm" styles="text-lg px-6 py-3 rounded-sm" />
           <Button title="Large - md" styles="text-lg px-6 py-3 rounded-md" />
+          <Button title="Large - lg" styles="text-lg px-6 py-3 rounded-lg" />
           <Button
             title="Large - full"
             styles="text-lg px-6 py-3 rounded-full"
