@@ -1,5 +1,5 @@
 import Card from "@/components/Card";
-import Button from "../components/Button";
+import Button from "@/components/Button";
 import { ButtonProps } from "../interfaces/index.js";
 
 const Landing: React.FC<ButtonProps> = () => {
